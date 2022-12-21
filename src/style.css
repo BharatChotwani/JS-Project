@@ -13,8 +13,8 @@ body {
   font-size: 50px;
 }
 
-.heading{
-    color: var(--base);
+.heading {
+  color: var(--base);
 }
 
 .controls {
