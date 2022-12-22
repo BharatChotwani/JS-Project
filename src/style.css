@@ -25,6 +25,15 @@ input {
   width: 100px;
 }
 
+.reset-btn {
+  width: 100px;
+  font-family: inherit;
+  padding: 0.4rem;
+  border: none;
+  background-color: var(--base);
+  cursor: pointer;
+}
+
 img {
   padding: var(--spacing);
   background: var(--base);
