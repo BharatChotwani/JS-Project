@@ -21,7 +21,7 @@ function resetInputs() {
 
 inputs.forEach((input) => input.addEventListener("change", handleUpdate));
 inputs.forEach((input) => input.addEventListener("mousemove", handleUpdate));
-// resetBtn.addEventListener("click", () => {
-//   inputs.forEach((input) => (input = ""));
-// });
+resetBtn.addEventListener("click", () => {
+  inputs.forEach((input) => (input.value = ""));
+});
 resetBtn.addEventListener("click", resetInputs);
